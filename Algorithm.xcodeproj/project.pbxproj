@@ -15,6 +15,9 @@
 		2A81D32F21D9C01500FADF2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A81D32E21D9C01500FADF2C /* main.m */; };
 		2A81D33921D9C10100FADF2C /* SortManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A81D33721D9C10100FADF2C /* SortManager.c */; };
 		2A81D33C21D9C1FF00FADF2C /* TestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A81D33B21D9C1FF00FADF2C /* TestManager.m */; };
+		2A81D34021DB005300FADF2C /* MathManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A81D33E21DB005300FADF2C /* MathManager.c */; };
+		2A81D34321DB07B600FADF2C /* OCArrayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A81D34221DB07B600FADF2C /* OCArrayManager.m */; };
+		2A81D34721DB5A8100FADF2C /* LinkedListManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A81D34521DB5A8100FADF2C /* LinkedListManager.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		2A81D33821D9C10100FADF2C /* SortManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortManager.h; sourceTree = "<group>"; };
 		2A81D33A21D9C1FF00FADF2C /* TestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestManager.h; sourceTree = "<group>"; };
 		2A81D33B21D9C1FF00FADF2C /* TestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestManager.m; sourceTree = "<group>"; };
+		2A81D33E21DB005300FADF2C /* MathManager.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MathManager.c; sourceTree = "<group>"; };
+		2A81D33F21DB005300FADF2C /* MathManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathManager.h; sourceTree = "<group>"; };
+		2A81D34121DB07B600FADF2C /* OCArrayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCArrayManager.h; sourceTree = "<group>"; };
+		2A81D34221DB07B600FADF2C /* OCArrayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCArrayManager.m; sourceTree = "<group>"; };
+		2A81D34521DB5A8100FADF2C /* LinkedListManager.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedListManager.c; sourceTree = "<group>"; };
+		2A81D34621DB5A8100FADF2C /* LinkedListManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,8 @@
 		2A81D33521D9C0B700FADF2C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2A81D34421DB5A5E00FADF2C /* LinkedList */,
+				2A81D33D21DB002B00FADF2C /* Math */,
 				2A81D33621D9C0CB00FADF2C /* Sort */,
 			);
 			path = Classes;
@@ -95,6 +106,26 @@
 				2A81D33821D9C10100FADF2C /* SortManager.h */,
 			);
 			path = Sort;
+			sourceTree = "<group>";
+		};
+		2A81D33D21DB002B00FADF2C /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				2A81D33F21DB005300FADF2C /* MathManager.h */,
+				2A81D33E21DB005300FADF2C /* MathManager.c */,
+				2A81D34121DB07B600FADF2C /* OCArrayManager.h */,
+				2A81D34221DB07B600FADF2C /* OCArrayManager.m */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		2A81D34421DB5A5E00FADF2C /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				2A81D34621DB5A8100FADF2C /* LinkedListManager.h */,
+				2A81D34521DB5A8100FADF2C /* LinkedListManager.c */,
+			);
+			path = LinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +201,12 @@
 			files = (
 				2A81D32421D9C01500FADF2C /* ViewController.m in Sources */,
 				2A81D33921D9C10100FADF2C /* SortManager.c in Sources */,
+				2A81D34721DB5A8100FADF2C /* LinkedListManager.c in Sources */,
 				2A81D32F21D9C01500FADF2C /* main.m in Sources */,
+				2A81D34021DB005300FADF2C /* MathManager.c in Sources */,
 				2A81D32121D9C01500FADF2C /* AppDelegate.m in Sources */,
 				2A81D33C21D9C1FF00FADF2C /* TestManager.m in Sources */,
+				2A81D34321DB07B600FADF2C /* OCArrayManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
